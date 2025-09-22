@@ -1,0 +1,32 @@
+spring:
+  application:
+   name: ai-code-mother
+
+  # mysql
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/self_home
+    username: root
+    password: 123456
+
+
+
+server:
+  port: 8123
+  servlet:
+    context-path: /api
+
+
+# springdoc-openapi
+springdoc:
+  group-configs:
+    - group: 'default'
+      packages-to-scan: com.seeback.aicodemother.controller
+# knife4j
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn
+
+
+
