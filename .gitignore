@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Maven 本地缓存 ###
+.m2_repo/
