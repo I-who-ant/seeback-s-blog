@@ -1,6 +1,7 @@
 # blog
 
-基于 Spring Boot + MyBatis Flex 的博客后端服务。
+基于 Spring Boot + MyBatis Flex 的博客后端服务
+(不过 , java还是算了吧... 太大了 .. 当我打算部署时 : 早知道 , 还是前端静态😭)
 
 ## 功能概览
 - 用户注册、登录、鉴权与基础用户管理
