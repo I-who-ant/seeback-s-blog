@@ -15,11 +15,3 @@
 
 默认服务地址：`http://localhost:8123/api`
 
-## 图片上传配置
-- 项目默认使用 sm.ms 图床。
-- 运行前设置环境变量：
-  ```bash
-  export SMMS_TOKEN="dYiv8m2NU5nrkUNhofVye1Lvo1yTpCLN"
-  ```
-- 可在 `application.yml` 中调整最大体积、允许的图片类型等参数。
-- 封面上传接口：`POST /api/blog/cover/upload`，支持上传文件（字段 `file`）或直接注入图片链接（字段 `url`），返回封面 URL 后写入文章。
